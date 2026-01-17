@@ -1,7 +1,26 @@
 body {
     background-color: floralwhite;
+    font-size: 14px;
+    color: darkblue;
 }
 
-h1, h2, p{
-    color: darkblue;
+/*Apply styles for medium screens*/
+@media (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/*Apply styles for large screens*/
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/*Apply styles for extra larger screens*/
+@media (min-width: 1928px) {
+    body {
+        font-size: 20px;
+    }
 }
